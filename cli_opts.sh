@@ -49,3 +49,9 @@ shift $((OPTIND - 1))
 if ! $aflag || ! $eflag || ! $uflag; then
     echo_err_help "ERROR: All arguments are mandatory."
 fi
+
+echo "Running script with following details:
+  APP NAME:     $APP
+  ENVIRONMENT:  $ENV
+  USER:         $USR
+"
