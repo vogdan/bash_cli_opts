@@ -2,7 +2,7 @@
 
 
 usage () {
-    echo "usage: ourappstart -a AP -e ENV -u USR"
+    echo "usage: ourappstart -a APP -e ENV -u USR"
     exit
 }
 
