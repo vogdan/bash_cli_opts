@@ -2,7 +2,7 @@
 
 
 usage () {
-    echo "usage: ourappstart -a APP_NAME -e ENVIRONMENT -u USER"
+    echo "usage: ourappstart -a AP -e ENV -u USR"
     exit
 }
 
@@ -51,7 +51,7 @@ if ! $aflag || ! $eflag || ! $uflag; then
 fi
 
 echo "Running script with following details:
-  APP NAME:     $APP
-  ENVIRONMENT:  $ENV
-  USER:         $USR
+  APP:  $APP
+  ENV:  $ENV
+  USR:  $USR
 "
